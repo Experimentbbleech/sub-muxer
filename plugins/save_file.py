@@ -72,7 +72,7 @@ async def save_doc(client, message):
     ext = save_filename.split('.').pop()
     filename = str(round(start_time))+'.'+ext
 
-    if ext in ['srt','ass']:
+    if ext in ['srt','ass','mp3']:
         os.rename(Config.DOWNLOAD_DIR+'/'+tg_filename,Config.DOWNLOAD_DIR+'/'+filename)
         db.put_sub(chat_id, filename)
         if db.check_video(chat_id):
