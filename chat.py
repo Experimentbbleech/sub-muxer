@@ -1,13 +1,13 @@
 
 class Chat:
 
-    START_TEXT = """This is a Telegram Bot to Mux subtitle into a video
+    START_TEXT = """Hi.\n👉 First send a FAST direct link, or Telegram Document [MP4 / AVI / MKV]
 
-<b>Send me a Telegram file to begin</b>
+\n👉 Then, send the required the SRT file\n👉 Click on the appropriate button,
 
 /help for more details..
 
-Credits :- @mohdsabahat
+Credits :- @Telugu_filmes
     """
 
     HELP_USER = "??"
